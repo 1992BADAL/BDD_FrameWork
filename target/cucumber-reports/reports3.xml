@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="81.109">
+<testcase classname="Customers" name="Add new Customer" time="80.458">
+<system-out><![CDATA[Given User lauch chrome browser.............................................passed
+When User opens URL "https://admin-demo.nopcommerce.com"....................passed
+And User enters Email as "admin@yourstore.com" and Password as "admin"......passed
+And Click on login..........................................................passed
+Then User can view the Dashboard............................................passed
+When User click on customer Menu............................................passed
+And Click on Customer Menu Item.............................................passed
+And Click on Add New button.................................................passed
+Then User can view Add new customer page....................................passed
+When User enter customer info...............................................passed
+And Click on save button....................................................passed
+Then User can view cofirmation message "The new customer has been added successfully.".passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
